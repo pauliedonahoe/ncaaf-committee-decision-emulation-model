@@ -42,4 +42,5 @@ Score Differential:
 The score differential of games is not taken into account for the final team ranking calculation. While I typically would consider this, it is my impression that the primary consideration of the  NCAAF committee in real life is if a game is simply a win or a loss, regardless of whether that win is by one point or one hundred points.
 
 Random Normal Distribution Inputs:
+
 Each "game" was simulated with a single random normal distribution, where the mean was the projected score differential (Home Team Predictive Rating - Away Team Predictive Rating + 2.6), and the standard deviation was 13.89. I do not remember exactly where I first found this 13.89 number, but it may have been from this article, which cites the same standard deviation for NCAAF games - https://www.footballperspective.com/a-monte-carlo-based-comparison-of-college-football-playoff-systems/.
