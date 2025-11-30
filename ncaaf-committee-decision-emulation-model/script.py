@@ -8,7 +8,7 @@
 ### 1 - inputs a list of NCAAF teams with their TeamRankings predictive ratings, 
 ### 2 - generates a randomized schedule with random pairings of teams, separated into different "weeks" of the season
 ### 3 - simulates the full season using the randomized schedule, running a random normal distribution for each game
-### 4 - uses the iterative least-weighted squares method to calculate final ratings for each team and outputs, 
+### 4 - uses the method of iterative rating updating to calculate final ratings for each team and outputs, 
 ###     in an attempt to emulate the human decision-making from the NCAAF ranking committee
 ### 5 - provides an additional set of optional outputs to see further details of the simulated season, 
 ###     and/or generate input for NCAAF Tournament Simulator script in Python
@@ -167,7 +167,7 @@ print(matrix_df.head(10))
 # In[11]:
 
 
-# Final team rating calculation, using iteratively reweighted least squares methodology
+# Final team rating calculation, using iterative rating updating methodology
 
 # Strip whitespace from column names
 schedule_df.columns = schedule_df.columns.str.strip()
