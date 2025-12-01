@@ -1,7 +1,7 @@
 \# NCAAF Committee Decision Emulation Model
 
 \#\# Disclaimer on Usage of Generative AI  
-While this work was created by me, the code itself was largely generated through prompting GenAI (ChatGPT). I provided the prompts and any necessary code debugging throughout the process \- but it was artificial intelligence that was the primary developer for the Python script.
+While this work was created by me, the coding itself was assisted through prompting GenAI (ChatGPT). I provided the prompts and any necessary code debugging throughout the process \- but it was artificial intelligence that was the primary developer for the Python script.
 
 \#\# Overview  
 This code first inputs a list of Division 1 NCAAF teams and their predictive ratings from [TeamRankings.com](http://TeamRankings.com). Then, it generates a randomized schedule with random pairings of teams, separated into different "weeks" of the season. Next, it simulates the full season using the randomized schedule by running a random normal distribution for each game. Finally, it uses a method of iteratively calculated network-based rating to calculate final ratings for each team and outputs, in an attempt to emulate the human decision-making from the NCAAF ranking committee.
